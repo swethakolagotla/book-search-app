@@ -31,6 +31,7 @@ export const fetchBooks = (title) => {
       )
       .then((response) => {
         const books = response.data.items;
+        console.log(books)
         dispatch(fetchbooksSuccess(books));
       })
       .catch((error) => {

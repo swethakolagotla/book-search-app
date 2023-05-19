@@ -54,7 +54,7 @@ const SearchBooks = () => {
               <h5 className="card-title">Authors: {data.volumeInfo.authors}</h5>
               <p className="card-text">
                 Description:{" "}
-                {data.volumeInfo.description.split("").splice(0, 20).join("")}
+                {data.volumeInfo.description}
                 ...
               </p>
               <a
