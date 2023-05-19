@@ -1,0 +1,11 @@
+.input{
+    width: 30%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: 1px solid #ff1fd6;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.text-center{
+  color:white
+}

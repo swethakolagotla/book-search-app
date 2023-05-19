@@ -1,0 +1,13 @@
+.form-control{
+    width:400px;
+    margin-left:360px
+}
+.text-center1{
+    color:rgb(255, 0, 0);
+    font-size:30px;
+    margin-left:40%;
+}
+.form-group > button{
+background-color: blue;
+color:white;
+}
